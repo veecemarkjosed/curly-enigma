@@ -1,253 +1,251 @@
+
 const students = [
     {
         id: 1,
-        name: "AGUIRRE, RENZE T.",
-        year: 3,
+        name: "Juan Dela Cruz",
+        year: 1,
         course: "BSIT",
-        grades: [85, 88, 90, 87],
+        grades: [85, 88, 90],
         enrolled: true
     },
     {
         id: 2,
-        name: "VILLAFLOR, KAREN V.",
-        year: 3,
-        course: "BSIT",
-        grades: [90, 92, 89, 91],
+        name: "Maria Santos",
+        year: 2,
+        course: "BSCS",
+        grades: [92, 90, 94],
         enrolled: true
     },
     {
         id: 3,
-        name: "ARROYO, JOHNJAY C.",
+        name: "Pedro Reyes",
         year: 3,
         course: "BSIT",
-        grades: [82, 85, 84, 86],
+        grades: [78, 82, 80],
         enrolled: true
     },
     {
         id: 4,
-        name: "BUENAFE, JASON E.",
-        year: 3,
-        course: "BSIT",
-        grades: [88, 87, 90, 89],
-        enrolled: true
+        name: "Ana Garcia",
+        year: 4,
+        course: "BSBA",
+        grades: [88, 91, 89],
+        enrolled: false
     },
     {
         id: 5,
-        name: "DACLAN, INRI S.",
-        year: 3,
-        course: "BSIT",
-        grades: [78, 82, 80, 85],
+        name: "Carlo Mendoza",
+        year: 1,
+        course: "BSCS",
+        grades: [95, 93, 96],
         enrolled: true
     },
     {
         id: 6,
-        name: "POJAS, NATHANIEL L.",
-        year: 3,
+        name: "Sofia Ramos",
+        year: 2,
         course: "BSIT",
-        grades: [91, 90, 94, 92],
+        grades: [87, 85, 89],
         enrolled: true
     },
     {
         id: 7,
-        name: "DEMAFELIS, RENIEL O.",
+        name: "Mark Villanueva",
         year: 3,
-        course: "BSIT",
-        grades: [84, 86, 88, 85],
+        course: "BSBA",
+        grades: [80, 84, 82],
         enrolled: true
     },
     {
         id: 8,
-        name: "SIASON, JAMILLA O.",
-        year: 3,
-        course: "BSIT",
-        grades: [93, 91, 95, 94],
+        name: "Lisa Torres",
+        year: 4,
+        course: "BSCS",
+        grades: [91, 94, 92],
         enrolled: true
     },
     {
         id: 9,
-        name: "GATILA, CRIS JOHN M.",
-        year: 3,
+        name: "Kevin Flores",
+        year: 1,
         course: "BSIT",
-        grades: [80, 83, 85, 82],
-        enrolled: true
+        grades: [76, 79, 81],
+        enrolled: false
     },
     {
         id: 10,
-        name: "JAWOD, JOHN THERENCE G.",
-        year: 3,
-        course: "BSIT",
-        grades: [87, 89, 86, 88],
+        name: "Angela Cruz",
+        year: 2,
+        course: "BSBA",
+        grades: [89, 87, 90],
         enrolled: true
     },
     {
         id: 11,
-        name: "MAGBANUA, EDMAR P.",
+        name: "Ryan Bautista",
         year: 3,
-        course: "BSIT",
-        grades: [79, 81, 84, 80],
+        course: "BSCS",
+        grades: [86, 88, 85],
         enrolled: true
     },
     {
         id: 12,
-        name: "MALBA, PAUL JOHN T.",
-        year: 3,
+        name: "Nicole Aquino",
+        year: 4,
         course: "BSIT",
-        grades: [86, 88, 87, 90],
+        grades: [93, 95, 94],
         enrolled: true
     },
     {
         id: 13,
-        name: "MAQUE, ROMAN B.",
-        year: 3,
-        course: "BSIT",
-        grades: [89, 91, 90, 88],
+        name: "Daniel Navarro",
+        year: 1,
+        course: "BSBA",
+        grades: [82, 80, 84],
         enrolled: true
     },
     {
         id: 14,
-        name: "PAGURTALAN, SAMLEE H.",
-        year: 3,
-        course: "BSIT",
-        grades: [92, 90, 91, 93],
-        enrolled: true
+        name: "Grace Castillo",
+        year: 2,
+        course: "BSCS",
+        grades: [90, 92, 89],
+        enrolled: false
     },
     {
         id: 15,
-        name: "QUILINO, RIZALITO D.",
+        name: "John Perez",
         year: 3,
         course: "BSIT",
-        grades: [83, 85, 82, 86],
+        grades: [83, 86, 85],
         enrolled: true
     },
     {
         id: 16,
-        name: "CEPEDA, RODEL P.",
-        year: 3,
-        course: "BSIT",
-        grades: [88, 84, 87, 89],
+        name: "Ella Fernandez",
+        year: 4,
+        course: "BSBA",
+        grades: [94, 91, 93],
         enrolled: true
     },
     {
         id: 17,
-        name: "VIDAL, ARCHIE F.",
-        year: 3,
-        course: "BSIT",
-        grades: [81, 83, 80, 84],
+        name: "Michael Tan",
+        year: 1,
+        course: "BSCS",
+        grades: [88, 86, 90],
         enrolled: true
     },
     {
         id: 18,
-        name: "SILLADOR, DENMARK M.",
-        year: 3,
+        name: "Samantha Lim",
+        year: 2,
         course: "BSIT",
-        grades: [90, 88, 92, 91],
+        grades: [81, 84, 83],
         enrolled: true
     },
     {
         id: 19,
-        name: "TEQUILLO, ADRIAN N.",
+        name: "James Sy",
         year: 3,
-        course: "BSIT",
-        grades: [85, 87, 86, 88],
-        enrolled: true
+        course: "BSBA",
+        grades: [87, 89, 88],
+        enrolled: false
     },
     {
         id: 20,
-        name: "BAHILOT, NERA C.",
-        year: 3,
-        course: "BSIT",
-        grades: [91, 93, 90, 92],
+        name: "Kate Manalo",
+        year: 4,
+        course: "BSCS",
+        grades: [96, 95, 97],
         enrolled: true
     },
     {
         id: 21,
-        name: "ALEGRIA, RONAMIE C.",
-        year: 3,
+        name: "Robert Diaz",
+        year: 1,
         course: "BSIT",
-        grades: [84, 82, 86, 85],
+        grades: [79, 81, 80],
         enrolled: true
     },
     {
         id: 22,
-        name: "EROSIDO, JISA B.",
-        year: 3,
-        course: "BSIT",
-        grades: [89, 87, 90, 88],
+        name: "Michelle Ong",
+        year: 2,
+        course: "BSBA",
+        grades: [90, 88, 91],
         enrolled: true
     },
     {
         id: 23,
-        name: "BARCOMA, ELYZAH PEARL L.",
+        name: "Thomas Garcia",
         year: 3,
-        course: "BSIT",
-        grades: [94, 92, 95, 93],
+        course: "BSCS",
+        grades: [84, 87, 86],
         enrolled: true
     },
     {
         id: 24,
-        name: "PLAZA, KEVIN JAMES A.",
-        year: 3,
+        name: "Rachel Gomez",
+        year: 4,
         course: "BSIT",
-        grades: [80, 82, 84, 81],
+        grades: [92, 93, 91],
         enrolled: true
     },
     {
         id: 25,
-        name: "BAYKING, KASSANDRA NICOLE M.",
-        year: 3,
-        course: "BSIT",
-        grades: [90, 91, 89, 92],
-        enrolled: true
+        name: "Steven Ramos",
+        year: 1,
+        course: "BSBA",
+        grades: [77, 80, 79],
+        enrolled: false
     },
     {
         id: 26,
-        name: "BIARAS, GRACE JOY P.",
-        year: 3,
-        course: "BSIT",
-        grades: [87, 85, 88, 90],
+        name: "Julia Santos",
+        year: 2,
+        course: "BSCS",
+        grades: [89, 91, 90],
         enrolled: true
     },
     {
         id: 27,
-        name: "CORDOVA, CHRISTINE M.",
+        name: "Patrick Reyes",
         year: 3,
         course: "BSIT",
-        grades: [92, 94, 91, 93],
+        grades: [85, 87, 86],
         enrolled: true
     },
     {
         id: 28,
-        name: "DAGUMBOY, JECA F.",
-        year: 3,
-        course: "BSIT",
-        grades: [83, 86, 84, 85],
+        name: "Chloe Mendoza",
+        year: 4,
+        course: "BSBA",
+        grades: [93, 92, 94],
         enrolled: true
     },
     {
         id: 29,
-        name: "PRACIO, ROXAN L.",
-        year: 3,
-        course: "BSIT",
-        grades: [88, 90, 87, 89],
+        name: "Andrew Flores",
+        year: 1,
+        course: "BSCS",
+        grades: [81, 83, 82],
         enrolled: true
     },
     {
         id: 30,
-        name: "GAVITO, HEART JANINE M.",
-        year: 3,
+        name: "Samantha Cruz",
+        year: 2,
         course: "BSIT",
-        grades: [91, 89, 93, 92],
-        enrolled: true
-    },
-    {
-        id: 31,
-        name: "CARAMIHAN, GENE MAE D.",
-        year: 3,
-        course: "BSIT",
-        grades: [86, 88, 85, 87],
+        grades: [90, 92, 91],
         enrolled: true
     }
 ];
+
+
+// ========================================
+// 1. GET AVERAGE GRADE
+// ========================================
 
 function getAverageGrade(student) {
     if (!student || !Array.isArray(student.grades) || student.grades.length === 0) {
@@ -259,9 +257,18 @@ function getAverageGrade(student) {
     return total / student.grades.length;
 }
 
+
+// ========================================
+// 2. GET TOP STUDENTS
+// ========================================
+
 function getTopStudents(students, n) {
-    if (!Array.isArray(students) || students.length === 0 || n <= 0) {
-        return [];
+    if (!Array.isArray(students)) {
+        throw new Error("Students must be an array.");
+    }
+
+    if (n < 0) {
+        throw new Error("Number of students cannot be negative.");
     }
 
     return students
@@ -273,9 +280,14 @@ function getTopStudents(students, n) {
         .slice(0, n);
 }
 
+
+// ========================================
+// 3. GROUP BY COURSE
+// ========================================
+
 function groupByCourse(students) {
-    if (!Array.isArray(students) || students.length === 0) {
-        return {};
+    if (!Array.isArray(students)) {
+        throw new Error("Students must be an array.");
     }
 
     return students.reduce((groups, student) => {
@@ -289,76 +301,127 @@ function groupByCourse(students) {
     }, {});
 }
 
+
+// ========================================
+// 4. GET ENROLLED COUNT
+// ========================================
+
 function getEnrolledCount(students) {
     if (!Array.isArray(students)) {
-        return 0;
+        throw new Error("Students must be an array.");
     }
 
-    return students.filter(student => student.enrolled === true).length;
-}
+    const enrolled = students.filter(student => student.enrolled).length;
 
-function findStudent(students, name) {
-    if (!Array.isArray(students) || !name) {
-        return null;
-    }
-
-    return students.find(
-        student => student.name.toLowerCase() === name.toLowerCase()
-    ) || null;
-}
-
-function getCourseAverages(students) {
-    if (!Array.isArray(students) || students.length === 0) {
-        return {};
-    }
-
-    const grouped = groupByCourse(students);
-
-    return Object.keys(grouped).reduce((result, course) => {
-        const courseStudents = grouped[course];
-
-        const totalAverage = courseStudents.reduce(
-            (sum, student) => sum + getAverageGrade(student),
-            0
-        );
-
-        result[course] = totalAverage / courseStudents.length;
-
-        return result;
-    }, {});
-}
-
-function exportSummary(students) {
-    if (!Array.isArray(students) || students.length === 0) {
-        return {
-            totalStudents: 0,
-            enrolledStudents: 0,
-            courses: {},
-            courseAverages: {},
-            topStudents: []
-        };
-    }
+    const notEnrolled = students.filter(student => !student.enrolled).length;
 
     return {
-        totalStudents: students.length,
-        enrolledStudents: getEnrolledCount(students),
-        courses: groupByCourse(students),
-        courseAverages: getCourseAverages(students),
-        topStudents: getTopStudents(students, 5)
+        enrolled: enrolled,
+        notEnrolled: notEnrolled
     };
 }
 
+
+// ========================================
+// 5. FIND STUDENT
+// ========================================
+
+function findStudent(students, name) {
+    if (!Array.isArray(students)) {
+        throw new Error("Students must be an array.");
+    }
+
+    if (!name) {
+        return null;
+    }
+
+    const searchName = name.toLowerCase();
+
+    return students.find(student =>
+        student.name.toLowerCase() === searchName
+    ) || null;
+}
+
+
+// ========================================
+// 6. GET COURSE AVERAGES
+// ========================================
+
+function getCourseAverages(students) {
+    if (!Array.isArray(students)) {
+        throw new Error("Students must be an array.");
+    }
+
+    const groups = groupByCourse(students);
+
+    return Object.keys(groups)
+        .map(course => {
+            const courseStudents = groups[course];
+
+            const total = courseStudents.reduce(
+                (sum, student) => sum + getAverageGrade(student),
+                0
+            );
+
+            return {
+                course: course,
+                average: total / courseStudents.length
+            };
+        })
+        .sort((a, b) => b.average - a.average);
+}
+
+
+// ========================================
+// 7. EXPORT SUMMARY
+// ========================================
+
+function exportSummary(students) {
+    if (!Array.isArray(students)) {
+        throw new Error("Students must be an array.");
+    }
+
+    const totalStudents = students.length;
+
+    const overallTotal = students.reduce(
+        (sum, student) => sum + getAverageGrade(student),
+        0
+    );
+
+    const overallAverage =
+        totalStudents === 0 ? 0 : overallTotal / totalStudents;
+
+    const topStudent = getTopStudents(students, 1)[0] || null;
+
+    return {
+        totalStudents: totalStudents,
+        overallAverage: overallAverage,
+        topPerformingStudent: topStudent,
+        breakdownByCourse: getCourseAverages(students)
+    };
+}
+
+
+// ========================================
+// OPTIONAL: FILTER BY YEAR
+// ========================================
+
 function filterByYear(students, year) {
     if (!Array.isArray(students)) {
-        return [];
+        throw new Error("Students must be an array.");
     }
 
     return students.filter(student => student.year === year);
 }
 
+
+// ========================================
+// OPTIONAL: SORT BY NAME
+// ========================================
+
 function sortByName(students) {
     if (!Array.isArray(students)) {
-        return [];
+        throw new Error("Students must be an array.");
     }
 
     return [...students].sort((a, b) =>
@@ -366,135 +429,113 @@ function sortByName(students) {
     );
 }
 
+
+// ========================================
+// MAIN FUNCTION
+// ========================================
+
 function main() {
-    console.log("==========================================");
-    console.log("       STUDENT RECORDS DATA PROCESSOR");
-    console.log("              BSIT 3A");
-    console.log("==========================================");
 
-    console.log("\n[1] AVERAGE GRADE");
-    console.log("------------------------------------------");
+    console.log("========================================");
+    console.log("       STUDENT RECORDS REPORT");
+    console.log("========================================");
 
-    const firstStudent = students[0];
-    const firstAverage = getAverageGrade(firstStudent);
 
-    console.log(`${firstStudent.name}: ${firstAverage.toFixed(2)}`);
+    // Total students
+    console.log("\n--- TOTAL STUDENTS ---");
+    console.log("Total:", students.length);
 
-    console.log("\n[2] TOP 5 STUDENTS");
-    console.log("------------------------------------------");
+
+    // Overall average
+    const summary = exportSummary(students);
+
+    console.log("\n--- OVERALL AVERAGE ---");
+    console.log(summary.overallAverage.toFixed(2));
+
+
+    // Enrolled count
+    console.log("\n--- ENROLLMENT ---");
+
+    const enrollment = getEnrolledCount(students);
+
+    console.log("Enrolled:", enrollment.enrolled);
+    console.log("Not Enrolled:", enrollment.notEnrolled);
+
+
+    // Top students
+    console.log("\n--- TOP 5 STUDENTS ---");
 
     const topStudents = getTopStudents(students, 5);
 
     topStudents.forEach((student, index) => {
         console.log(
-            `${index + 1}. ${student.name} - Average: ${student.average.toFixed(2)}`
-        );
-    });
-
-    console.log("\n[3] STUDENTS GROUPED BY COURSE");
-    console.log("------------------------------------------");
-
-    const groupedStudents = groupByCourse(students);
-
-    Object.keys(groupedStudents).forEach(course => {
-        console.log(
-            `${course}: ${groupedStudents[course].length} student(s)`
-        );
-    });
-
-    console.log("\n[4] ENROLLED STUDENTS");
-    console.log("------------------------------------------");
-
-    const enrolledCount = getEnrolledCount(students);
-
-    console.log(`Total Enrolled: ${enrolledCount}`);
-    console.log(`Total Students: ${students.length}`);
-
-    console.log("\n[5] FIND STUDENT");
-    console.log("------------------------------------------");
-
-    const searchName = "MAQUE, ROMAN B.";
-    const foundStudent = findStudent(students, searchName);
-
-    if (foundStudent) {
-        console.log("Student Found:");
-        console.log(`ID: ${foundStudent.id}`);
-        console.log(`Name: ${foundStudent.name}`);
-        console.log(`Year: ${foundStudent.year}`);
-        console.log(`Course: ${foundStudent.course}`);
-        console.log(`Enrolled: ${foundStudent.enrolled}`);
-        console.log(`Average: ${getAverageGrade(foundStudent).toFixed(2)}`);
-    } else {
-        console.log("Student not found.");
-    }
-
-    console.log("\n[6] COURSE AVERAGES");
-    console.log("------------------------------------------");
-
-    const courseAverages = getCourseAverages(students);
-
-    Object.keys(courseAverages).forEach(course => {
-        console.log(
-            `${course}: ${courseAverages[course].toFixed(2)}`
-        );
-    });
-
-    console.log("\n[7] EXPORT SUMMARY");
-    console.log("------------------------------------------");
-
-    const summary = exportSummary(students);
-
-    console.log(`Total Students: ${summary.totalStudents}`);
-    console.log(`Enrolled Students: ${summary.enrolledStudents}`);
-
-    console.log("\nTop Students in Summary:");
-
-    summary.topStudents.forEach((student, index) => {
-        console.log(
             `${index + 1}. ${student.name} - ${student.average.toFixed(2)}`
         );
     });
 
-    console.log("\n[8] EDGE CASE TESTS");
-    console.log("------------------------------------------");
 
-    console.log("Empty students average:", getAverageGrade(null));
+    // Course averages
+    console.log("\n--- COURSE AVERAGES ---");
 
-    console.log("Empty students array:", exportSummary([]));
+    const courseAverages = getCourseAverages(students);
 
-    console.log(
-        "Student with no grades:",
-        getAverageGrade({
-            id: 999,
-            name: "TEST STUDENT",
-            year: 3,
-            course: "BSIT",
-            grades: [],
-            enrolled: true
-        })
+    courseAverages.forEach(course => {
+        console.log(
+            `${course.course}: ${course.average.toFixed(2)}`
+        );
+    });
+
+
+    // Group by course
+    console.log("\n--- STUDENTS BY COURSE ---");
+
+    const grouped = groupByCourse(students);
+
+    Object.keys(grouped).forEach(course => {
+        console.log(`${course}: ${grouped[course].length} students`);
+    });
+
+
+    // Search
+    console.log("\n--- STUDENT SEARCH ---");
+
+    const searchedStudent = findStudent(
+        students,
+        "Maria Santos"
     );
 
-    console.log(
-        "Non-existing student:",
-        findStudent(students, "NON-EXISTING STUDENT")
+    console.log(searchedStudent);
+
+
+    // Search for nonexistent student
+    const notFound = findStudent(
+        students,
+        "Unknown Student"
     );
 
-    console.log("\n[9] OPTIONAL FUNCTIONS");
-    console.log("------------------------------------------");
+    console.log("Unknown Student:", notFound);
 
-    console.log(`Year 3 Students: ${filterByYear(students, 3).length}`);
 
-    console.log("\nFirst 5 Students Alphabetically:");
+    // Optional year filter
+    console.log("\n--- YEAR 1 STUDENTS ---");
 
-    sortByName(students)
-        .slice(0, 5)
-        .forEach((student, index) => {
-            console.log(`${index + 1}. ${student.name}`);
-        });
+    const firstYear = filterByYear(students, 1);
 
-    console.log("\n==========================================");
-    console.log("             PROGRAM COMPLETE");
-    console.log("==========================================");
+    firstYear.forEach(student => {
+        console.log(student.name);
+    });
+
+
+    // Summary
+    console.log("\n--- COMPLETE SUMMARY ---");
+    console.log(summary);
+
+
+    console.log("\n========================================");
+    console.log("           REPORT COMPLETE");
+    console.log("========================================");
 }
 
+
+// Run the program
 main();
