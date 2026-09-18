@@ -1,262 +1,242 @@
 [
   {
     "id": 1,
-    "name": "William Smith",
-    "year": 4,
-    "course": "History",
-    "grades": [
-      70,
-      87,
-      74,
-      79
-    ],
-    "enrolled": false
+    "name": "Juan Dela Cruz",
+    "year": 1,
+    "course": "BSIT",
+    "grades": [85, 88, 90],
+    "enrolled": true
   },
   {
     "id": 2,
-    "name": "Oliver Garcia",
+    "name": "Maria Santos",
     "year": 2,
-    "course": "English",
-    "grades": [
-      72,
-      93,
-      69,
-      89
-    ],
+    "course": "BSCS",
+    "grades": [92, 90, 94],
     "enrolled": true
   },
   {
     "id": 3,
-    "name": "Charlotte Davis",
-    "year": 2,
-    "course": "Economics",
-    "grades": [
-      99,
-      96,
-      85,
-      100
-    ],
+    "name": "Pedro Reyes",
+    "year": 3,
+    "course": "BSIT",
+    "grades": [78, 82, 80],
     "enrolled": true
   },
   {
     "id": 4,
-    "name": "Sophia Smith",
-    "year": 1,
-    "course": "Chemistry",
-    "grades": [
-      76,
-      80,
-      61,
-      72
-    ],
+    "name": "Ana Garcia",
+    "year": 4,
+    "course": "BSBA",
+    "grades": [88, 91, 89],
     "enrolled": false
   },
   {
     "id": 5,
-    "name": "Olivia Rodriguez",
-    "year": 3,
-    "course": "Computer Science",
-    "grades": [
-      86,
-      62,
-      72,
-      71
-    ],
-    "enrolled": false
+    "name": "Carlo Mendoza",
+    "year": 1,
+    "course": "BSCS",
+    "grades": [95, 93, 96],
+    "enrolled": true
   },
   {
     "id": 6,
-    "name": "Elijah Harris",
-    "year": 1,
-    "course": "Chemistry",
-    "grades": [
-      78,
-      99,
-      71,
-      68
-    ],
+    "name": "Sofia Ramos",
+    "year": 2,
+    "course": "BSIT",
+    "grades": [87, 85, 89],
     "enrolled": true
   },
   {
     "id": 7,
-    "name": "Renz Lopez",
-    "year": 1,
-    "course": "Economics",
-    "grades": [
-      67,
-      83,
-      73,
-      73
-    ],
+    "name": "Mark Villanueva",
+    "year": 3,
+    "course": "BSBA",
+    "grades": [80, 84, 82],
     "enrolled": true
   },
   {
     "id": 8,
-    "name": "William Taylor",
-    "year": 2,
-    "course": "Physics",
-    "grades": [
-      62,
-      60,
-      81,
-      60
-    ],
+    "name": "Lisa Torres",
+    "year": 4,
+    "course": "BSCS",
+    "grades": [91, 94, 92],
     "enrolled": true
   },
   {
     "id": 9,
-    "name": "Karen Rodriguez",
-    "year": 4,
-    "course": "Mathematics",
-    "grades": [
-      79,
-      61,
-      65,
-      82
-    ],
+    "name": "Kevin Flores",
+    "year": 1,
+    "course": "BSIT",
+    "grades": [76, 79, 81],
     "enrolled": false
   },
   {
     "id": 10,
-    "name": "Edmar Jones",
-    "year": 3,
-    "course": "Computer Science",
-    "grades": [
-      83,
-      64,
-      66,
-      69
-    ],
+    "name": "Angela Cruz",
+    "year": 2,
+    "course": "BSBA",
+    "grades": [89, 87, 90],
     "enrolled": true
   },
   {
     "id": 11,
-    "name": "Edmar Hernandez",
-    "year": 2,
-    "course": "Sociology",
-    "grades": [
-      79,
-      87,
-      92,
-      89
-    ],
+    "name": "Ryan Bautista",
+    "year": 3,
+    "course": "BSCS",
+    "grades": [86, 88, 85],
     "enrolled": true
   },
   {
     "id": 12,
-    "name": "Cris Taylor",
-    "year": 3,
-    "course": "History",
-    "grades": [
-      83,
-      95,
-      98,
-      88
-    ],
-    "enrolled": false
+    "name": "Nicole Aquino",
+    "year": 4,
+    "course": "BSIT",
+    "grades": [93, 95, 94],
+    "enrolled": true
   },
   {
     "id": 13,
-    "name": "Edmar Sanchez",
+    "name": "Daniel Navarro",
     "year": 1,
-    "course": "English",
-    "grades": [
-      74,
-      60,
-      91,
-      81
-    ],
+    "course": "BSBA",
+    "grades": [82, 80, 84],
     "enrolled": true
   },
   {
     "id": 14,
-    "name": "Heart Taylor",
-    "year": 1,
-    "course": "Physics",
-    "grades": [
-      67,
-      62,
-      99,
-      91
-    ],
-    "enrolled": true
+    "name": "Grace Castillo",
+    "year": 2,
+    "course": "BSCS",
+    "grades": [90, 92, 89],
+    "enrolled": false
   },
   {
     "id": 15,
-    "name": "Jessa Jones",
-    "year": 1,
-    "course": "Sociology",
-    "grades": [
-      65,
-      82,
-      71,
-      79
-    ],
+    "name": "John Perez",
+    "year": 3,
+    "course": "BSIT",
+    "grades": [83, 86, 85],
     "enrolled": true
   },
   {
     "id": 16,
-    "name": "Nathaniel Moore",
-    "year": 3,
-    "course": "Chemistry",
-    "grades": [
-      60,
-      87,
-      100,
-      88
-    ],
-    "enrolled": false
+    "name": "Ella Fernandez",
+    "year": 4,
+    "course": "BSBA",
+    "grades": [94, 91, 93],
+    "enrolled": true
   },
   {
     "id": 17,
-    "name": "Edmar White",
+    "name": "Michael Tan",
     "year": 1,
-    "course": "Chemistry",
-    "grades": [
-      61,
-      68,
-      62,
-      100
-    ],
-    "enrolled": false
+    "course": "BSCS",
+    "grades": [88, 86, 90],
+    "enrolled": true
   },
   {
     "id": 18,
-    "name": "Adrian Smith",
-    "year": 4,
-    "course": "Mathematics",
-    "grades": [
-      79,
-      96,
-      62,
-      71
-    ],
+    "name": "Samantha Lim",
+    "year": 2,
+    "course": "BSIT",
+    "grades": [81, 84, 83],
     "enrolled": true
   },
   {
     "id": 19,
-    "name": "Oliver Wilson",
+    "name": "James Sy",
     "year": 3,
-    "course": "Psychology",
-    "grades": [
-      100,
-      68,
-      99,
-      95
-    ],
-    "enrolled": true
+    "course": "BSBA",
+    "grades": [87, 89, 88],
+    "enrolled": false
   },
   {
     "id": 20,
-    "name": "Olivia Brown",
+    "name": "Kate Manalo",
+    "year": 4,
+    "course": "BSCS",
+    "grades": [96, 95, 97],
+    "enrolled": true
+  },
+  {
+    "id": 21,
+    "name": "Robert Diaz",
+    "year": 1,
+    "course": "BSIT",
+    "grades": [79, 81, 80],
+    "enrolled": true
+  },
+  {
+    "id": 22,
+    "name": "Michelle Ong",
+    "year": 2,
+    "course": "BSBA",
+    "grades": [90, 88, 91],
+    "enrolled": true
+  },
+  {
+    "id": 23,
+    "name": "Thomas Garcia",
     "year": 3,
-    "course": "Physics",
-    "grades": [
-      66,
-      63,
-      87,
-      79
-    ],
+    "course": "BSCS",
+    "grades": [84, 87, 86],
+    "enrolled": true
+  },
+  {
+    "id": 24,
+    "name": "Rachel Gomez",
+    "year": 4,
+    "course": "BSIT",
+    "grades": [92, 93, 91],
+    "enrolled": true
+  },
+  {
+    "id": 25,
+    "name": "Steven Ramos",
+    "year": 1,
+    "course": "BSBA",
+    "grades": [77, 80, 79],
+    "enrolled": false
+  },
+  {
+    "id": 26,
+    "name": "Julia Santos",
+    "year": 2,
+    "course": "BSCS",
+    "grades": [89, 91, 90],
+    "enrolled": true
+  },
+  {
+    "id": 27,
+    "name": "Patrick Reyes",
+    "year": 3,
+    "course": "BSIT",
+    "grades": [85, 87, 86],
+    "enrolled": true
+  },
+  {
+    "id": 28,
+    "name": "Chloe Mendoza",
+    "year": 4,
+    "course": "BSBA",
+    "grades": [93, 92, 94],
+    "enrolled": true
+  },
+  {
+    "id": 29,
+    "name": "Andrew Flores",
+    "year": 1,
+    "course": "BSCS",
+    "grades": [81, 83, 82],
+    "enrolled": true
+  },
+  {
+    "id": 30,
+    "name": "Samantha Cruz",
+    "year": 2,
+    "course": "BSIT",
+    "grades": [90, 92, 91],
     "enrolled": true
   }
 ]
